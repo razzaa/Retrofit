@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:padding="16dp"
+    android:background="#EDE0E0"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/postimage"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/postTitle"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="ksrdgnksbdg kldnbkvdjf dklfnbjkdfnlk dlkbnkldfnblk
+dkfnbjkdnkdnfknbdkfnb"
+
+
+        />
+    <TextView
+        android:id="@+id/postDescription"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="ksrdgnksbdg kldnbkvdjf dklfnbjkdfnlk dlkbnkldfnblk
+dkfnbjkdnkdnfknbdkfnb"
+
+
+        />
+
+</LinearLayout>
